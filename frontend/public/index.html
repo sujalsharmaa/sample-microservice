@@ -10,9 +10,9 @@
     <script>
         function fetchData() {
             fetch('/api')
-                .then(response => response.text())
+                .then(response => response.json())
                 .then(data => {
-                    document.getElementById('result').innerText = data;
+                    document.getElementById('result').innerText = JSON.stringify(data.message);
                 })
                 .catch(err => {
                     document.getElementById('result').innerText = 'Error: ' + err.message;
