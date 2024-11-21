@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: sujalsharma/frontend:1.0
+          image: sujalsharma/frontend:v1
           ports:
             - containerPort: 3001

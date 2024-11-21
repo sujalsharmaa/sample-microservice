@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: backend-python
-          image: sujalsharma/python-backend:1.0
+          image: sujalsharma/python-backend:v1
           ports:
             - containerPort: 5000

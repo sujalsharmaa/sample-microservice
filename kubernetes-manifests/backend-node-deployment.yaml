@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: backend-node
-          image: sujalsharma/node-backend:1.0
+          image: sujalsharma/node-backend:v2
           ports:
             - containerPort: 3000
